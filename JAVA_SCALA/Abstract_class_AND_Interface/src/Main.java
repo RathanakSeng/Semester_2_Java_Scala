@@ -11,7 +11,12 @@ interface Enroll
     Boolean enroll(Boolean enroll);
 }
 
-class Batch extends Student implements Enroll
+interface Enrollment
+{
+
+}
+
+class Batch extends Student implements Enroll, Enrollment
 {
     public Batch(Integer rollNum, String name, String batch)
     {
@@ -27,7 +32,7 @@ class Batch extends Student implements Enroll
     @Override
     public String toString()
     {
-        return rollNum + " : " + name + " : " + batch;
+        return rollNum + " : " + name + " : " + batch + " : " + school;
     }
 }
 
