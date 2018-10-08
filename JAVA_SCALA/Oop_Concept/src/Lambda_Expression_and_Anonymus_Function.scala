@@ -1,10 +1,9 @@
 
-
 object Lambda_Expression_and_Anonymus_Function 
 {
   def main(arg: Array[String])
   {
-    var sum = (a: Int, b:Int) => a + b
+    var sum = (a: Int, b:Int) => (a + b)
     
     var power = (a: Int, b:Int) => 
       {
