@@ -1,4 +1,4 @@
-import scala.io.StdIn._
+import scala.io.StdIn.readInt
 
 object Pattern_Matching_Demo
 {
