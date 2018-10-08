@@ -1,0 +1,99 @@
+Chapter I: Introduction to Object oriented programming
+Basic of Programming
+Procedure Oriented vs Object Oriented
+Basic concepts of OOPS
+Basic units of OOPS
+System setup
+Examples of programming languages that uses OOPS
+JVM and its units
+
+Chapter II: Concepts of OOPS
+Class and objects
+Data hiding
+Inheritance
+Polymorphism
+Dynamic binding
+
+Chapter III: Some important keywords, abstract classes and interfaces
+The static keyword
+The this keyword
+The super keyword
+The final keyword 
+abstract functions
+abstract classes
+interfaces
+multiple inheritance using interfaces
+instantiating and interface
+
+Chapter IV: Exception handling
+Exception hierarchy
+Exception vs error
+try… catch and finally
+Throwing and re throwing exception
+User defined exceptions
+Nested try catch blocks
+Assertions
+
+Chapter V: Collections
+Set 
+List
+Map
+hashCode, equals and toString methods
+Comparable and Comparator
+
+Chapter VI: Files
+File class
+Streams based file IO
+Character based file IO
+Serialization
+
+Chapter VII: Multithreading using Java
+Thread states
+Thread class and Runnable interface
+Thread synchronization
+Methods used in synchronizing multiple Threads
+
+Chapter VIII: Scala Basics
+Scala Introduction
+Variables & constants
+            2.   Scala Data types
+            3.   Scala Strings
+            4.   Numbers and operators
+Control structures
+Pattern matching
+Break statements
+
+  Chapter IX: Derived defined Types
+
+Arrays
+Classes, Objects and oops
+Inheritance 
+Constructors
+Function overloading
+Function Overriding
+Operator overloading
+Singleton object in Scala
+hashCode and equals in Scala
+Abstract classes and functions
+Traits and Mixins
+Lambda Expressions and Anonymous Functions
+
+Chapter X: Functional programming and High level functions
+Functions
+Arguments
+Return types
+Returning  functions
+Passing functions in the arguments
+Closures
+Function currying
+Function Composition
+Nested Functions
+Function variable with length parameters
+
+Chapter IX: Collections 
+Collection introduction
+Set, Seq and Map implementations
+Mutable vs immutable Collections
+Adding, Removing and retrieving the values in Collections
+Comparing Collections based on use case
+tuples

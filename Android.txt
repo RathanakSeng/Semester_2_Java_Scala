@@ -1,0 +1,13 @@
+UNIT 1
+
+Intro to mobile application - Types of mobile applications - Android operating system introduction - Architecture of Android Operating system - Kernal  - DVM vs ART - Security in Android - Kotlin introduction - Kotlin vs Java - Installing and configuring android studio and Intellij
+
+UNIT 2
+
+XML and Kotlin together - Activities - Activity life cycle - Intents and passing values to other activities using Intents - Toast - Layouts and Widgets - ListView and RecyclerView - validations using android 
+
+
+
+UNIT 3
+
+Services - Foreground Services - Background Services - Bound Services - broadcasts
