@@ -1,9 +1,8 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Main2
+public class Main3
 {
-    static String myFile = "C:\\Users\\Administrator\\Documents\\GitHub\\Semester_2_Java_Scala\\JAVA_SCALA\\JAVA_File\\src\\Text.txt";
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args)
@@ -16,12 +15,12 @@ public class Main2
         {
             case 1 :
             {
-                read(myFile);
+                read();
             }
             break;
             case 2 :
             {
-                writer(myFile);
+                write();
             }
             break;
             default :
@@ -30,16 +29,13 @@ public class Main2
         }
     }
 
-    public static void writer(String myFile)
+    public static void write()
     {
         try
         {
-            Writer file = new BufferedWriter(new FileWriter(myFile, true));
+            ObjectOutputStream file = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Administrator\\Documents\\GitHub\\Semester_2_Java_Scala\\JAVA_SCALA\\JAVA_File\\src\\Student.bin"));
 
-            System.out.print("Enter some text: ");
-            String text = input.nextLine();
-
-            file.write(text);
+            file.writeObject(new Student("Rathanak", 111));
             file.flush();
             file.close();
         }
@@ -53,18 +49,19 @@ public class Main2
         }
     }
 
-    public static void read(String myFile)
+    public static void read()
     {
         try
         {
-            Reader file = new FileReader(myFile);
+            ObjectInputStream file = new ObjectInputStream(new FileInputStream("C:\\Users\\Administrator\\Documents\\GitHub\\Semester_2_Java_Scala\\JAVA_SCALA\\JAVA_File\\src\\Student.bin"));
 
-            char[] text = new char[1000];
-
-            file.read(text);
-            System.out.println(text);
-
+            Student student = (Student) file.readObject();
+            System.out.println(student);
             file.close();
+        }
+        catch (ClassNotFoundException ex)
+        {
+            ex.printStackTrace();
         }
         catch (IOException ex)
         {
