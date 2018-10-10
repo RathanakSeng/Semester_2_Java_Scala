@@ -37,9 +37,11 @@ public class Main2
             Writer file = new BufferedWriter(new FileWriter(myFile, true));
 
             System.out.print("Enter some text: ");
-            String text = input.nextLine();
+//            input.next();
+            String text = input.next();
 
             file.write(text);
+
             file.flush();
             file.close();
         }
@@ -59,11 +61,16 @@ public class Main2
         {
             Reader file = new FileReader(myFile);
 
-            char[] text = new char[1000];
-
-            file.read(text);
-            System.out.println(text);
-
+//            char[] text = new char[1000];
+//
+//            file.read(text);
+//            System.out.println(text);
+            int i = file.read();
+            while (i != -1)
+            {
+                System.out.printf("%c", i);
+                i = file.read();
+            }
             file.close();
         }
         catch (IOException ex)

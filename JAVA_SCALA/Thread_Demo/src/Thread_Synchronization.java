@@ -2,7 +2,7 @@ public class Thread_Synchronization
 {
     static int count = 0;
 
-    int count_1 = 0;
+    static volatile int count_1 = 0;
 
     static Thread_Synchronization myObj = new Thread_Synchronization();
 

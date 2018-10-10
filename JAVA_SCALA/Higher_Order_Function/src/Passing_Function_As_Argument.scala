@@ -1,5 +1,3 @@
-
-
 object Passing_Function_As_Argument
 {
   def main(arg: Array[String])

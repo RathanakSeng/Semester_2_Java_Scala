@@ -4,6 +4,12 @@ class Student(var name: String, var id: Int)
   {
     return if(id > s.id) true else false
   }
+
+  def +(s: Student): Int =
+  {
+    return this.id + s.id
+  }
+
   override def toString(): String = 
   {
     return id + " : " + name

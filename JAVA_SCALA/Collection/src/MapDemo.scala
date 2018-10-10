@@ -6,8 +6,8 @@ object MapDemo
 {
   def main(args: Array[String])
   {
-    var map = Map[Int, Char](1 -> 'A', 2 -> 'B', 3 -> 'C')
-    println(map)
+    var map = Map(1 -> 'A', 2 -> 'B', 3 -> 'C')
+    println(map.get(1))
     println("Pair of key and value in map -> ")
     map.foreach
     {
@@ -17,7 +17,7 @@ object MapDemo
         }
     }
     println()
-    var hashMap = HashMap(('A', 1), ('B', 2), ('C', 3))
+    var hashMap = ListMap(('A', 1), ('B', 2), ('C', 3))
     println(hashMap)
     println("Pair key and value in hashMap -> ")
     hashMap.foreach

@@ -41,7 +41,6 @@ object Natural_Orderinng
     {
       student => println(student)
     }
-    
     var sortedMap = SortedMap(1 -> new Student(1112, "Nyratt"), 2 -> new Student(1111, "Rathanak"), 3 -> new Student(1113, "Dara"))
     
     sortedMap.foreach

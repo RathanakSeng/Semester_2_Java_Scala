@@ -9,6 +9,12 @@ trait Examination
   def isFailedExam(failed: Boolean): Boolean
 }
 
+trait Examination_2
+{
+  def isTakeExam(take: Boolean): Boolean
+  def isFailedExam(failed: Boolean): Boolean
+}
+
 class batch(override val id: Int, override val name: String, var batch: Int) extends Student(id, name) with Examination
 {
   override def toString(): String =

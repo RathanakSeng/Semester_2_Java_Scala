@@ -2,7 +2,7 @@ public class Thread_Create_Priority
 {
     public static void main(String[] args)
     {
-        Thread obj = new Thread()
+        Thread obj = new Thread("Rathanak")
         {
             @Override
             public void run()
@@ -40,7 +40,7 @@ public class Thread_Create_Priority
                     }
                 }
             }
-        });
+        }, "Dara");
 
         new Thread()
         {
