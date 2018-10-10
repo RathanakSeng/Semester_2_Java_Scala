@@ -5,6 +5,23 @@ class Student(var id: Int, var name: String) extends Ordered[Student]
 {
   override def toString(): String = id + " : " + name
   override def compare(student: Student): Int = this.id - student.id
+
+  def canEqual(other: Any): Boolean = other.isInstanceOf[Student]
+
+  override def equals(other: Any): Boolean = other match
+  {
+    case that: Student =>
+      (that.canEqual(this)) &&
+        id == that.id &&
+        name == that.name
+    case _ => false
+  }
+
+  override def hashCode(): Int =
+  {
+    val state = Seq(id, name)
+    state.map(_.hashCode()).foldLeft(0)((a, b) => 31 * a + b)
+  }
 }
 
 object Natural_Orderinng 

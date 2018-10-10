@@ -27,7 +27,7 @@ public class Student implements Comparable<Student>
     public boolean equals(Object o)
     {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null || this.getClass() != o.getClass()) return false;
         Student student = (Student) o;
         return Objects.equals(id, student.id) &&
                 Objects.equals(name, student.name) &&
@@ -37,7 +37,6 @@ public class Student implements Comparable<Student>
     @Override
     public int hashCode()
     {
-
         return Objects.hash(id, name, batch);
     }
 
