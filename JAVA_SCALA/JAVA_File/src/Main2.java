@@ -21,7 +21,7 @@ public class Main2
             break;
             case 2 :
             {
-                writer(myFile);
+                write(myFile);
             }
             break;
             default :
@@ -30,7 +30,7 @@ public class Main2
         }
     }
 
-    public static void writer(String myFile)
+    public static void write(String myFile)
     {
         try
         {
