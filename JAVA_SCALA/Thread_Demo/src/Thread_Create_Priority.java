@@ -84,11 +84,18 @@ public class Thread_Create_Priority
 
         obj.start();
         obj_2.start();
+        System.out.println("a" + obj.getState());
 
         /* Priority part*/
         System.out.println(obj.getName() + " : " + obj.getPriority());
 
         obj_2.setPriority(Thread.MIN_PRIORITY);
-        System.out.println(obj_2.getName() + " : " + obj_2.getPriority());
+        try
+        {
+            obj_2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(obj_2.getName() + " : " + obj_2.getPriority() + " : " + obj_2.getState());
     }
 }

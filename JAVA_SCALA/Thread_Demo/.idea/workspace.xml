@@ -21,11 +21,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread_Create_Priority.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Thread_Create_Priority.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+            <state relative-caret-position="2349">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+              <folding>
+                <element signature="e#108#620#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#1199#1734#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +39,8 @@
       <file leaf-file-name="Thread_Synchronization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="78" column="50" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="78" selection-end-column="50" />
+            <state relative-caret-position="1674">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
@@ -45,15 +51,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeadLock_Thread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeadLock_Thread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="405">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#361#865#0" expanded="true" />
                 <element signature="e#864#865#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wait_Notify_Thread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <element signature="e#691#970#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Using_Lock_Thread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -71,9 +99,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Thread_Demo.java" />
-        <option value="$PROJECT_DIR$/src/Thread_Create_Priority.java" />
         <option value="$PROJECT_DIR$/src/Thread_Synchronization.java" />
         <option value="$PROJECT_DIR$/src/DeadLock_Thread.java" />
+        <option value="$PROJECT_DIR$/src/Wait_Notify_Thread.java" />
+        <option value="$PROJECT_DIR$/src/Using_Lock_Thread.java" />
+        <option value="$PROJECT_DIR$/src/Thread_Create_Priority.java" />
       </list>
     </option>
   </component>
@@ -87,7 +117,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+    <option name="x" value="-7" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -120,6 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../KIT the kiririom insitute of technology/Year1/semester2/JAVA &amp; SCALA/Java/ForInternal2Thread/Basic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -135,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLock_Thread">
+  <component name="RunManager" selected="Application.Thread_Create_Priority">
     <configuration name="DeadLock_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeadLock_Thread" />
       <module name="Thread_Demo" />
@@ -146,13 +177,18 @@
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Thread_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread_Demo" />
+    <configuration name="Thread_Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread_Synchronization" />
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Thread_Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread_Synchronization" />
+    <configuration name="Using_Lock_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Using_Lock_Thread" />
+      <module name="Thread_Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Wait_Notify_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Wait_Notify_Thread" />
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -198,17 +234,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Thread_Demo" />
       <item itemvalue="Application.Thread_Create_Priority" />
       <item itemvalue="Application.Thread_Synchronization" />
       <item itemvalue="Application.DeadLock_Thread" />
+      <item itemvalue="Application.Wait_Notify_Thread" />
+      <item itemvalue="Application.Using_Lock_Thread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread_Create_Priority" />
+        <item itemvalue="Application.Using_Lock_Thread" />
+        <item itemvalue="Application.Wait_Notify_Thread" />
         <item itemvalue="Application.DeadLock_Thread" />
         <item itemvalue="Application.Thread_Synchronization" />
-        <item itemvalue="Application.Thread_Create_Priority" />
-        <item itemvalue="Application.Thread_Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539104078597</updated>
       <workItem from="1539104083749" duration="1077000" />
-      <workItem from="1539135968438" duration="1382000" />
+      <workItem from="1539135968438" duration="3825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2459000" />
+    <option name="totallyTimeSpent" value="4902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -248,7 +286,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5224936" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -282,6 +320,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2187">
           <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="e#108#620#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#1199#1734#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -292,17 +336,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        <state relative-caret-position="477">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#691#970#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#361#865#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="78" column="50" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="78" selection-end-column="50" />
+        <state relative-caret-position="1674">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
@@ -312,13 +385,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="2349">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
           <folding>
-            <element signature="e#361#865#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#108#620#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#1199#1734#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
           </folding>
         </state>
       </provider>
