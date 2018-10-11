@@ -5,6 +5,7 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.os.IBinder
 import android.provider.Settings
+import android.util.Log
 import android.widget.Toast
 
 class MyService : Service()
@@ -26,7 +27,7 @@ class MyService : Service()
     {
         super.onStartCommand(intent, flags, startId)
 
-        mediaPlayer = MediaPlayer.create(this, Settings.System.DEFAULT_ALARM_ALERT_URI)
+        mediaPlayer = MediaPlayer.create(this, Settings.System.DEFAULT_NOTIFICATION_URI)
         mediaPlayer.isLooping = true
         mediaPlayer.start()
         return START_STICKY
