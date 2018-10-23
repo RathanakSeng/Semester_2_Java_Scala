@@ -36,7 +36,7 @@ object Natural_Orderinng
       {
         println(student)
       })
-      
+
     sortedSet.foreach
     {
       student => println(student)

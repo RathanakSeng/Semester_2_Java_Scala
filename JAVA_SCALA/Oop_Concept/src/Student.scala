@@ -15,7 +15,7 @@ trait Examination_2
   def isFailedExam(failed: Boolean): Boolean
 }
 
-class batch(override val id: Int, override val name: String, var batch: Int) extends Student(id, name) with Examination
+class batch(override val id: Int, override val name: String, var batch: Int) extends Student(id, name) with Examination with Examination_2
 {
   override def toString(): String =
   {

@@ -6,9 +6,9 @@ object Returning_Function
     println("Enter your first_name, than your last_name: ")
     
     //Variable getName will carry a function that is returned from setName() 
-    var getName = setName(readLine(), readLine())
+    val getName = setName(readLine(), readLine()) apply(1)
     
-    println("My name is: " + getName(1))
+    println("My name is: " + getName)
   }
   def setName(first_name: String, last_name: String) = 
   {

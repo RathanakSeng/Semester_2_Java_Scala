@@ -6,6 +6,7 @@ object Pattern_Matching_Demo
   {
     print("Enter a number from 1 to 7: ")
     var num = readInt()
+    check(num)
     
     num match
     {
@@ -41,6 +42,41 @@ object Pattern_Matching_Demo
         {
           println("Dont you read the instrution?? ?")
         }
+    }
+  }
+  def check(num : Int) = num match
+  {
+    case 1 =>
+    {
+      println("Monday")
+    }
+    case 2 =>
+    {
+      println("Tuesday")
+    }
+    case 3 =>
+    {
+      println("Wednesday")
+    }
+    case 4 =>
+    {
+      println("Thursday")
+    }
+    case 5 =>
+    {
+      println("Friday")
+    }
+    case 6 =>
+    {
+      println("Saturday")
+    }
+    case 7 =>
+    {
+      println("Sunday")
+    }
+    case _ =>
+    {
+      println("Dont you read the instrution?? ?")
     }
   }
 }

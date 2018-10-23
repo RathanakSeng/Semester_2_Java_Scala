@@ -84,7 +84,19 @@
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="0dp"
             android:layout_toStartOf="@+id/button"
-            android:text="next" />
+            android:text="next"
+            />
+
+        <TextView
+            android:id="@+id/txtExample"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="-199dp"
+            android:layout_toEndOf="@+id/button"
+            android:text="Hello World"
+            android:gravity="center"
+            />
 
     </RelativeLayout>
 

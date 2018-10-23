@@ -11,12 +11,10 @@ public class Thread_Synchronization
         count++;
     }
 
-    public void count_1()
+    public synchronized void count_1()
     {
-        synchronized (this)
-        {
-            count_1++;
-        }
+
+        count_1++;
     }
 
     public static void main(String[] args)
@@ -76,6 +74,6 @@ public class Thread_Synchronization
         }
 
         System.out.println("Static : " + count);
-        System.out.println("Instance : " + count);
+        System.out.println("Instance : " + count_1);
     }
 }

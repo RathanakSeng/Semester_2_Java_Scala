@@ -1,7 +1,7 @@
 package com.example.bsg.layout_demo
 
 import android.content.Intent
-import android.opengl.Visibility
+import android.graphics.Typeface
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,7 +9,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity()
 {
-
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
@@ -36,5 +35,8 @@ class MainActivity : AppCompatActivity()
         {
             startActivity(Intent(this, Main2Activity::class.java))
         }
+
+//        txtExample.typeface = Typeface.createFromAsset(assets, "assets\\my_font.tff")
+        txtExample.textSize = 16.0f
     }
 }

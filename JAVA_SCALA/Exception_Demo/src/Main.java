@@ -27,7 +27,7 @@ public class Main
         }
         finally
         {
-            assert obj.age >= 18 : "You are too young to join this";
+//            assert obj.age >= 18 : "You are too young to join this";
         }
     }
 

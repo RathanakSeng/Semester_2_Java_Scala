@@ -20,7 +20,7 @@ public class Main
         batch3.add(new Student(1104, "Danei", 3));
         batch3.add(new Student(1103, "Lyhov", 3));
 
-        Collections.sort(batch3, new Sorting());
+        Collections.sort(batch3, Sorting.getInstance());
 
         Map school = new HashMap<Integer, Object>();
 
@@ -34,5 +34,7 @@ public class Main
                 (key, value) ->
                     System.out.println(key + " : " + value)
         );
+
+        batch3.forEach(student -> System.out.println(student));
     }
 }

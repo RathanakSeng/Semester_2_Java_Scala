@@ -12,9 +12,9 @@ class MyService : Service()
 {
     private lateinit var mediaPlayer: MediaPlayer
 
-    override fun onBind(intent: Intent): IBinder
+    override fun onBind(intent: Intent): IBinder?
     {
-        return null!!
+        return null
     }
 
     override fun onCreate()

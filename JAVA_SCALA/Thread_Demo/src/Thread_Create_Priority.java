@@ -16,7 +16,7 @@ public class Thread_Create_Priority
                     }
                     catch (InterruptedException e)
                     {
-                            e.printStackTrace();
+                        e.printStackTrace();
                     }
                 }
             }
@@ -80,7 +80,7 @@ public class Thread_Create_Priority
                     }
                 }
             }
-        }).start();
+        }, "MImiMImiMI").start();
 
         obj.start();
         obj_2.start();

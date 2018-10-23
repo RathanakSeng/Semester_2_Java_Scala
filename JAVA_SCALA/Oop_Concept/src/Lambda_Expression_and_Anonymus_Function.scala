@@ -12,7 +12,7 @@ object Lambda_Expression_and_Anonymus_Function
         {
           temp = temp * a
         }
-        temp
+        return temp
       }
     println("Sum of 2 and 10 -> " + sum(2, 10))
     println("2 power 10 -> " + power(2, 10))

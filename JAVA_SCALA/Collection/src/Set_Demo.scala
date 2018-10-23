@@ -20,7 +20,7 @@ object Set_Demo
     println(set.hashCode())
     var hashSet: HashSet[Int] = HashSet(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
     println(hashSet.hashCode())
-    hashSet.+(10)
+    hashSet += 10
     println(hashSet.hashCode())
     println("*******************************************************")
     var bitSet = BitSet(1, 2, 3, 4, 5)
@@ -35,6 +35,7 @@ object Set_Demo
     println("ListSet -> " + listSet)
     println("*******************************************************")
     //Using function
+    println("The first two elements in BitSet -> " + bitSet take 2)
     println("First element in set -> " + set.head)
     println("Last element in hashSet -> " + hashSet.last)
     println("Except the first element in bitSet -> " + bitSet.tail)
@@ -46,6 +47,8 @@ object Set_Demo
     println("*******************************************************")
     var newSet = sortedSet -- set
     var newSet_2 = bitSet ++ linkedHashSet
+    var newBitSet = bitSet drop 2
+    println("The element in newBitSet is -> " + newBitSet)
     println("The disconcadination set \"newSet\" -> " + newSet)
     println("The concadination set \"newSet_2\" -> " + newSet_2)
     println("Only even number in set -> " + set.filter(_%2==0))

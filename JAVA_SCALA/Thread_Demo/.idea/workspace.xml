@@ -15,34 +15,23 @@
       <file leaf-file-name="Thread_Create_Priority.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1422">
+              <caret line="98" column="101" selection-start-line="98" selection-start-column="101" selection-end-line="98" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread_Group.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thread_Group.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="513">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadGroup.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="775" selection-start-line="775" selection-end-line="775" />
             </state>
           </provider>
         </entry>
@@ -50,8 +39,8 @@
       <file leaf-file-name="Thread_Demo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="1026">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -59,8 +48,12 @@
       <file leaf-file-name="Thread_Synchronization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="-740">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +61,8 @@
       <file leaf-file-name="DeadLock_Thread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,21 +70,17 @@
       <file leaf-file-name="Wait_Notify_Thread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="e#673#952#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Using_Lock_Thread.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Using_Lock_Thread.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="729">
+              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -108,13 +97,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Thread_Create_Priority.java" />
+        <option value="$PROJECT_DIR$/src/Thread_Group.java" />
         <option value="$PROJECT_DIR$/src/Thread_Demo.java" />
         <option value="$PROJECT_DIR$/src/DeadLock_Thread.java" />
         <option value="$PROJECT_DIR$/src/Wait_Notify_Thread.java" />
         <option value="$PROJECT_DIR$/src/Using_Lock_Thread.java" />
         <option value="$PROJECT_DIR$/src/Thread_Synchronization.java" />
-        <option value="$PROJECT_DIR$/src/Thread_Create_Priority.java" />
-        <option value="$PROJECT_DIR$/src/Thread_Group.java" />
       </list>
     </option>
   </component>
@@ -128,7 +117,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="424" />
+    <option name="y" value="15" />
     <option name="width" value="814" />
     <option name="height" value="867" />
   </component>
@@ -136,32 +126,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Thread_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thread_Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Thread_Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thread_Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA_Collection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -177,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Thread_Group">
+  <component name="RunManager" selected="Application.Thread_Synchronization">
     <configuration name="DeadLock_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeadLock_Thread" />
       <module name="Thread_Demo" />
@@ -193,13 +163,13 @@
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Using_Lock_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Using_Lock_Thread" />
+    <configuration name="Thread_Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread_Synchronization" />
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Wait_Notify_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wait_Notify_Thread" />
+    <configuration name="Using_Lock_Thread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Using_Lock_Thread" />
       <module name="Thread_Demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -246,18 +216,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Thread_Create_Priority" />
-      <item itemvalue="Application.DeadLock_Thread" />
-      <item itemvalue="Application.Wait_Notify_Thread" />
       <item itemvalue="Application.Using_Lock_Thread" />
       <item itemvalue="Application.Thread_Group" />
+      <item itemvalue="Application.Thread_Synchronization" />
+      <item itemvalue="Application.DeadLock_Thread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread_Synchronization" />
         <item itemvalue="Application.Thread_Group" />
+        <item itemvalue="Application.DeadLock_Thread" />
         <item itemvalue="Application.Thread_Create_Priority" />
         <item itemvalue="Application.Using_Lock_Thread" />
-        <item itemvalue="Application.Wait_Notify_Thread" />
-        <item itemvalue="Application.DeadLock_Thread" />
       </list>
     </recent_temporary>
   </component>
@@ -277,11 +247,16 @@
       <workItem from="1539174519819" duration="613000" />
       <workItem from="1539182815077" duration="490000" />
       <workItem from="1539214155609" duration="365000" />
+      <workItem from="1539762733454" duration="1033000" />
+      <workItem from="1539766414203" duration="126000" />
+      <workItem from="1539779915941" duration="1472000" />
+      <workItem from="1539785334932" duration="869000" />
+      <workItem from="1539816731225" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6690000" />
+    <option name="totallyTimeSpent" value="10387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -296,8 +271,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -307,8 +282,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -324,6 +299,118 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20925">
+          <caret line="775" selection-start-line="775" selection-end-line="775" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20925">
+          <caret line="775" selection-start-line="775" selection-end-line="775" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2538">
@@ -356,10 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#673#952#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,10 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#673#952#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,71 +600,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="394">
+          <caret line="775" selection-start-line="775" selection-end-line="775" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="1422">
+          <caret line="98" column="101" selection-start-line="98" selection-start-column="101" selection-end-line="98" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding>
-            <element signature="e#673#952#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DeadLock_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_Synchronization.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/Wait_Notify_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="351">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_Create_Priority.java">
+    <entry file="file://$PROJECT_DIR$/src/Using_Lock_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="775" selection-start-line="775" selection-end-line="775" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thread_Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="729">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>

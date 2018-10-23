@@ -36,6 +36,8 @@ public class Thread_Group
         obj_2.start();
 
         myGroup.list();
+//        System.out.println(myGroup.getParent());
+//        myGroup.destroy();
+//        myGroup.list();
     }
-
 }

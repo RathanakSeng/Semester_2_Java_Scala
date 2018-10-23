@@ -15,9 +15,7 @@ public class Using_Lock_Thread
 
         new Thread(
                 () ->
-                {
-                    demoLock();
-                }
+                { demoLock();}
         ).start();
     }
 
