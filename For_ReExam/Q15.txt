@@ -1,0 +1,21 @@
+class SecondActivity : AppCompatActivity()
+{
+    override fun onCreate(savedInstanceState: Bundle?)
+    {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        txtView.text = intent.getStringExtra("myString")
+    }
+}
+
+<!---XML--->
+<LinearLayout 
+	width="match_parent"
+	height="match_parent"
+	orientation="vertical">
+	<TextView
+		id="txtView"
+		width="wrap_content"
+		height="wrap_content"/>
+</LinearLayout>
