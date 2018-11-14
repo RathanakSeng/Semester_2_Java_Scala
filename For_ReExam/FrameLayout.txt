@@ -1,0 +1,78 @@
+<LinearLayout 
+	width="match_parent"
+	height="match_parent"
+    	orientation="vertical" >
+
+	<LinearLayout 
+		width="match_parent"
+		height="match_parent"
+		weight="7"
+    		orientation="vertical" >
+
+		<FrameLayout
+			id="@+id/frameImage_1"
+        		width="match_parent"
+        		height="match_parent"
+			visibility="visible">
+
+    			<ImageView
+        			id="@+id/image_1"
+        			width="match_parent"
+        			height="match_parent"/>
+
+		</FrameLayout>
+	
+		<FrameLayout
+			id="@+id/frameImage_2"
+        		width="match_parent"
+        		height="match_parent"
+			visibility="gone">
+
+    			<ImageView
+        			id="@+id/image_2"
+        			width="match_parent"
+        			height="match_parent"/>
+		</FrameLayout>
+	</LinearLayout>
+
+	<LinearLayout 
+		width="match_parent"
+		height="match_parent"
+		weight="3"
+    		orientation="vertical" >
+
+		<Button
+			id = "@+id/btn"
+			width="wrap_content"
+        		height="wrap_content"
+			text="next"/>		
+
+	</LinearLayout>
+
+</LinearLayout>
+
+class MainActivity: AppCompatActivity () 
+{
+    override fun onCreate (savedInstanceState: Bundle?)
+	{
+        	super.onCreate (savedInstanceState)
+        	setContentView (R.layout.activity_main)
+        	
+		image_1.setImageResource(R.drawable.image_1)
+        	image_2.setImageResource(R.drawable.image_2)
+
+        	btn.setOnClickListener 
+		{
+            		if(frameImage_1.visibility == View.VISIBLE) 
+			{
+				frameImage_1.visibility == View.GONE
+				frameImage_2.visibility == View.VISIBLE
+			}
+			else if(frameImage_2.visibility == View.VISIBLE)
+			{
+				frameImage_2.visibility == View.GONE
+				frameImage_1.visibility == View.VISIBLE
+			}
+        	}
+    }
+}
